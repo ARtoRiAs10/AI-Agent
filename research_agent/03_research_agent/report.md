@@ -1,0 +1,3 @@
+[MOCK LLM RESPONSE — set OPENROUTER_API_KEY for real output]
+System focus: You are a research analyst writing a final report. Given the business question and the researched findings for each sub-...
+Given input, a reasonable placeholder analysis/decision was generated.

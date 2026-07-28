@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "customer_id": "C-500",
+    "order_id": "O-9001",
+    "subject": "Where is my package?",
+    "body": "Hi, I ordered a jacket 10 days ago and it still says 'processing'. Can you tell me what's going on?",
+    "tool_calls": [
+      "search_kb",
+      "get_order_status",
+      "get_customer_account",
+      "issue_resolution"
+    ],
+    "resolution": {
+      "action": "example",
+      "customer_message": "example",
+      "escalation_summary": null
+    }
+  },
+  {
+    "ticket_id": "T-1002",
+    "customer_id": "C-777",
+    "order_id": "O-9002",
+    "subject": "Refund for damaged item, 3rd time this month",
+    "body": "This is the THIRD time I've had to contact you about a broken item this month. I want a full refund and I'm considering disputing the charge with my bank.",
+    "tool_calls": [
+      "search_kb",
+      "get_order_status",
+      "get_customer_account",
+      "issue_resolution"
+    ],
+    "resolution": {
+      "action": "example",
+      "customer_message": "example",
+      "escalation_summary": null
+    }
+  }
+]

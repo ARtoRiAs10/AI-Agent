@@ -1,0 +1,50 @@
+{
+  "question": "test q",
+  "report": "[MOCK LLM RESPONSE \u2014 set OPENROUTER_API_KEY for real output]\nSystem focus: You are a research analyst writing a final report. Given the business question and the researched findings for each sub-...\nGiven input, a reasonable placeholder analysis/decision was generated.",
+  "sub_questions": [
+    {
+      "text": "What is the market size and growth rate relevant to: test q",
+      "status": "answered",
+      "answer": "[MOCK MODE] Ran available tools once each for demonstration. Set OPENROUTER_API_KEY (get one free at https://openrouter.ai/keys) to get real multi-step reasoning and properly-targeted tool calls instead of this placeholder.",
+      "sources": [
+        {
+          "title": "SEA Food Delivery Market Report 2026",
+          "url": "https://example-research.com/sea-food-delivery-2026"
+        }
+      ]
+    },
+    {
+      "text": "Who are the key competitors relevant to: test q",
+      "status": "answered",
+      "answer": "[MOCK MODE] Ran available tools once each for demonstration. Set OPENROUTER_API_KEY (get one free at https://openrouter.ai/keys) to get real multi-step reasoning and properly-targeted tool calls instead of this placeholder.",
+      "sources": [
+        {
+          "title": "SEA Food Delivery Market Report 2026",
+          "url": "https://example-research.com/sea-food-delivery-2026"
+        }
+      ]
+    },
+    {
+      "text": "What regulatory/operational risks apply to: test q",
+      "status": "answered",
+      "answer": "[MOCK MODE] Ran available tools once each for demonstration. Set OPENROUTER_API_KEY (get one free at https://openrouter.ai/keys) to get real multi-step reasoning and properly-targeted tool calls instead of this placeholder.",
+      "sources": [
+        {
+          "title": "SEA Food Delivery Market Report 2026",
+          "url": "https://example-research.com/sea-food-delivery-2026"
+        }
+      ]
+    },
+    {
+      "text": "What is the likely cost/investment required for: test q",
+      "status": "answered",
+      "answer": "[MOCK MODE] Ran available tools once each for demonstration. Set OPENROUTER_API_KEY (get one free at https://openrouter.ai/keys) to get real multi-step reasoning and properly-targeted tool calls instead of this placeholder.",
+      "sources": [
+        {
+          "title": "SEA Food Delivery Market Report 2026",
+          "url": "https://example-research.com/sea-food-delivery-2026"
+        }
+      ]
+    }
+  ]
+}

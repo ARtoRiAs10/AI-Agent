@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "app/auth/login.py",
+      "review_mode": "deep_investigation",
+      "tool_calls_made": [
+        "get_file_content",
+        "get_file_blame_summary",
+        "search_repo",
+        "submit_review_comments"
+      ],
+      "comments": []
+    },
+    {
+      "path": "app/api/orders.py",
+      "review_mode": "deep_investigation",
+      "tool_calls_made": [
+        "get_file_content",
+        "get_file_blame_summary",
+        "search_repo",
+        "submit_review_comments"
+      ],
+      "comments": []
+    },
+    {
+      "path": "app/utils/strings.py",
+      "review_mode": "quick_pass",
+      "tool_calls_made": [],
+      "comments": []
+    }
+  ]
+}

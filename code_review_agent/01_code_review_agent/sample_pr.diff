@@ -1,0 +1,31 @@
+diff --git a/app/auth/login.py b/app/auth/login.py
+index e69de29..b6fd7f6 100644
+--- a/app/auth/login.py
++++ b/app/auth/login.py
+@@ -1,5 +1,10 @@
+ import hashlib
+ 
++def check_password(user, password):
++    stored = get_stored_hash(user)
++    return hashlib.md5(password.encode()).hexdigest() == stored
++
++def get_stored_hash(user):
++    # looked up from db
++    return db.users.find_one({"name": user})["password_hash"]
+diff --git a/app/api/orders.py b/app/api/orders.py
+index 1234567..89abcde 100644
+--- a/app/api/orders.py
++++ b/app/api/orders.py
+@@ -1,2 +1,4 @@
++def get_order(order_id):
++    query = "SELECT * FROM orders WHERE id = " + order_id
++    return db.execute(query)
+diff --git a/app/utils/strings.py b/app/utils/strings.py
+index 9999999..8888888 100644
+--- a/app/utils/strings.py
++++ b/app/utils/strings.py
+@@ -1,2 +1,2 @@
+-def slugify(text):
+-    return text.lower().replace(' ', '_')
++def slugify(text):
++    return text.lower().replace(" ", "-")
